@@ -1,0 +1,193 @@
+@font-face {
+  font-family: PoppinsBlack;
+  src: url(./assets/fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: PoppinsBlackItalic;
+  src: url(./assets/fonts/Poppins-BlackItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: PoppinsBoldItalic;
+  src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraBold;
+  src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraBoldItalic;
+  src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraLight;
+  src: url(./assets/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraLightItalic;
+  src: url(./assets/fonts/Poppins-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsItalic;
+  src: url(./assets/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: PoppinsLight;
+  src: url(./assets/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: PoppinsLightItalic;
+  src: url(./assets/fonts/Poppins-LightItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsMediumItalic;
+  src: url(./assets/fonts/Poppins-MediumItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBoldItalic;
+  src: url(./assets/fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsThin;
+  src: url(./assets/fonts/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: PoppinsThinItalic;
+  src: url(./assets/fonts/Poppins-ThinItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsThinItalic;
+  src: url(./assets/fonts/Poppins-ThinItalic.ttf);
+}
+@font-face {
+  font-family: MontserratBlack;
+  src: url(./assets/fonts/Montserrat-Black.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratLight;
+  src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratRegular;
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa !important;
+}    
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbcff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7270e3;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: 0px 8px 6px -6px #d8d3d3, 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+}
+.ant-select-selector, .ant-input-search, .ant-picker{
+  box-shadow: 0px 8px 6px -6px #d8d3d3 !important
+  
+}
+
+.ant-select, .ant-picker {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector, .ant-picker{
+  border: none !important;
+  height: auto !important;
+  padding: 12px 20px !important;
+  border-radius: 8px !important;
+}
+
+.ant-select-arrow{
+  color:#000;
+  margin-right: 12px !important;
+
+}
+.anticon svg {
+  /* color: #000; */
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-picker{
+  font-family: MontserratMedium !important;
+}
+
+.ant-picker{
+  padding: 10px 20px !important;
+}
+
+.MuiTableHead-root .MuiTableCell-root{
+  padding: 8px 16px !important;
+  font-family: MontserratMedium;
+}
+.MuiTableBody-root .MuiTableCell-root{
+  font-family: MontserratMedium;
+  color:#000
+}
+
+.ant-input-affix-wrapper {
+  margin-top: 5px;
+
+  border: none !important;
+  padding: 16px 20px !important;
+  border-radius: 8px !important;
+
+}
+
+.ant-input-search-icon{
+  color:#000 !important;
+  padding: 0px !important;
+}
+
+.ant-input-search-icon::before {
+  border-left: none !important;
+
+}
+
+.ant-input {
+  font-family: MontserratMedium !important;
+}
+
+.MuiGrid-container {
+  align-items: flex-end;
+}

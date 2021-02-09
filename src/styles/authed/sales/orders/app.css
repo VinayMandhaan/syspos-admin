@@ -1,0 +1,17 @@
+.orderdetails-container .MuiCardContent-root {
+    padding: 0px !important;
+}   
+.description-rows{
+    display: flex;
+}
+.description-rows>div{
+    width: 50%;
+}
+
+.MuiPaper-outlined {
+    border-bottom: none !important;
+    border-right: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.12) ;
+    border-left: 1px solid rgba(0,0,0,0.12);
+    padding: 10px 20px !important;
+}

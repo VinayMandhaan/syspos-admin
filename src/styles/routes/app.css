@@ -1,0 +1,66 @@
+.appContainer .ant-menu-inline,.appContainer .ant-menu-vertical,.appContainer .ant-menu-vertical-left {
+    border-right: none !important;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: none !important;
+}
+.ant-menu-item .anticon + span, .ant-menu-submenu .anticon + span, .ant-menu-sub.ant-menu-inline > .ant-menu-item{
+    font-family: MontserratMedium;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #7270e3 !important;
+    color:#fff !important;
+    display: flex;
+    align-items: center;
+    font-family: MontserratMedium;
+
+}
+.ant-menu-inline .ant-menu-item::after {
+    border-right: none !important;
+}
+.ant-menu-item-selected {
+    color: #fff !important;
+}
+.ant-menu-submenu-selected {
+    color: #fff !important;
+}
+.ant-menu-item, .ant-menu-submenu, .ant-menu-submenu-arrow{
+    border-radius: 10px !important; 
+    font-family: MontserratMedium;
+}
+.ant-menu-submenu-title span{
+    font-family: MontserratMedium;
+
+}
+.ant-menu-item .ant-menu-item-only-child{
+    font-family: MontserratMedium;
+
+}
+.ant-menu-inline .ant-menu-item, .ant-menu-submenu-title {
+    color: #808191;
+    font-family: MontserratMedium;
+
+}
+.ant-menu-inline .ant-menu-item, .ant-menu-submenu-title:hover {
+    color: #808191;
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+    /* background-image: linear-gradient(to right, #808191, #808193) !important; */
+    background-image: linear-gradient(to right, #808191, #808191);
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before{
+    background-image: linear-gradient(to right, #808191, #808191);
+}
+.ant-menu-item-selected svg{
+    margin: -3px 10px 0px 0px !important;
+}
+@media screen and (max-width: 600px) {
+    .accountBox{
+        margin-right: 20px !important;
+    }
+    .logo{
+        /* width: 80px !important; */
+        display: none;
+    }
+  
+}
